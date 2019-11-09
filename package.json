@@ -28,7 +28,7 @@
     "gatsby-remark-katex": "^1.0.14",
     "gatsby-remark-prismjs": "*",
     "gatsby-remark-smartypants": "*",
-    "gatsby-source-filesystem": "^2.1.35",
+    "gatsby-source-filesystem": "*",
     "gatsby-transformer-csv": "^1.3.11",
     "gatsby-transformer-remark": "*",
     "gatsby-transformer-sharp": "*",
