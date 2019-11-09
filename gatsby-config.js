@@ -4,9 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'Dan - Shai',
     author: 'Dan Shai',
-    description: ' Dan Blog ',
+    description: ' doorway ',
     siteUrl:
-      'https://github.com/Danshai/gatsbyv2-scientific-blog-machine-learning/',
+      'https://github.com/Technological-Unemployment/gatsbyv2-scientific-blog-machine-learning/',
   },
   pathPrefix: '/gatsbyv2-scientific-blog-machine-learning/',
   plugins: [
