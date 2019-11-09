@@ -39,8 +39,10 @@
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.19",
     "typeface-merriweather": "0.0.54",
-    "typeface-montserrat": "0.0.54"
+    "typeface-montserrat": "0.0.54",
+    "typography": "^0.16.19"
   },
   "keywords": [
     "gatsby",
