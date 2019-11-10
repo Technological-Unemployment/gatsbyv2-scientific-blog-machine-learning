@@ -19,5 +19,5 @@ Citi Ventures a subset of Citibank has made investments in several firms special
 $NDAQ and $C recently developed a payment solution that enables straight through payment processing (STP) and automates reconciliation by using a blockchain distributed ledger to record and transmit payment instructions. 
 HSBC is collaborating with Softbank Robotics to have Pepper, a humanoid robot help you with your banking needs. 
  
-Robotics and software development are much further down the line that you realize. Pay attention to which firms embrace semi-automation / automation first as they'll have the competitive edge.
-Profits per Employee will be openly discussed in conference calls and firms will be scrutinized if they have a higher head count than their competitors within the same space.
+>Robotics and software development are much further down the line that you realize. Pay attention to which firms embrace     >semi-automation / automation first as they'll have the competitive edge.
+>Profits per Employee will be openly discussed in conference calls and firms will be scrutinized if they have a higher head >count than their competitors within the same space.
