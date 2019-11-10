@@ -1,7 +1,7 @@
 ---
 title: Human-less Banks
 date: '2019-11-09'
-author: 'dan'
+author: 'Joseph'
 ---
 
 Human-less Banks.   Last year, China’s second biggest state-owned China Construction Bank (CCB) opened a human-less bank in Shanghai. The automated tellers can perform services including account opening, gold investment, foreign exchange, money transfer and issuance of wealth management products.  In addition, the robots can also transfer money, change currency, open new bank accounts or make investments as human employees.
