@@ -1,18 +1,17 @@
-const autoprefixer = require('autoprefixer')
+const autoprefixer = require('autoprefixer');
 
 module.exports = {
   siteMetadata: {
     title: 'Dan - Shai',
-    author: 'Dan Shai',
-    description: ' doorway ',
-    siteUrl:
-      'https://github.com/Technological-Unemployment/gatsbyv2-scientific-blog-machine-learning/',
+    author: 'technology-for-good',
+    description: 'Gatsby 2 to Gatsby 5 upgrade',
+    siteUrl: 'https://github.com/Technological-Unemployment/gatsbyv2-scientific-blog-machine-learning/',
   },
   pathPrefix: '/gatsbyv2-scientific-blog-machine-learning/',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'dan-blog',
         short_name: 'dan-blog',
@@ -24,41 +23,34 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: `${__dirname}/src/pages/`,  
+        path: `${__dirname}/src/pages/`,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `data`,
+        name: 'data',
         path: `${__dirname}/src/data/`,
       },
     },
+    'gatsby-transformer-csv',
     {
-      resolve: `gatsby-transformer-csv`,
-      options: {
-        noheader: false,
-      },
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
             resolve: 'gatsby-remark-graph',
             options: {
-              // this is the language in your code-block that triggers mermaid parsing
               language: 'mermaid', // default
               theme: 'neutral', // could also be dark, forest, or neutral
             },
           },
-          `gatsby-remark-katex`,
-
+          'gatsby-remark-katex',
           {
-            resolve: `gatsby-remark-images`,
+            resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 590,
             },
@@ -70,21 +62,24 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-postcss`,
+      resolve: 'gatsby-plugin-postcss',
       options: {
         postCssPlugins: [
           autoprefixer({
-            browsers: ['last 4 versions'],
+            overrideBrowserslist: ['last 4 versions'],
           }),
         ],
-        precision: 8,
+        postcssOptions: {
+          precision: 8, // Removed since 'precision' is no longer valid for postcss-loader.
+        },
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-offline',
   ],
-}
+};
+
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   if (stage === 'build-html') {
     actions.setWebpackConfig({
@@ -96,6 +91,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
           },
         ],
       },
-    })
+    });
   }
-}
+};
+
