@@ -1,47 +1,46 @@
-# Gatsby V2 scientific starter Blog
+# Gatsby V5 Scientific Starter Blog
 
-a gatsby scientific starter blog for science, maths and machine learning writing and testing.
-<br />
+A Gatsby v5 scientific starter blog designed for writing, testing, and sharing content related to science, mathematics, and machine learning.
 
-See the starter in action » [demo website](https://danshai.github.io/gatsbyv2-scientific-blog-machine-learning/)
-<br />
 
 ## Description
 
-A ready to use scientific blog for writing research and machine learning demos, easy to customize .
+A ready-to-use scientific blog for writing research and showcasing machine learning demos. It's highly customizable and integrates with modern web technologies.
 
 ## Features:
 
-- Easy editable content in **Markdown** files (posts, pages and parts) via **graphQl**
-- **Tensorflowjs** integration , modified the react [**tfjx**](https://github.com/ModelDepot/tfjsx) package to work with gatsby
-- **chartjs** integration instead of plotly , plotly doesnt compile when deploying. so I used react-chartjs,
-  useful to see loss and accuracy functions and other charts you might have.
-- **Katex** support to work with mathematical expressions and research
-- **csv** plugin support to work with csv files data
-- **graph** plugin to work with graphical schemes in your markdown files using **mermaid**
-- Easy customizable base **styles**
-- **ESLint**
-- **Prettier** code styling
+- **Easy Markdown Editing**: Easily manage your content (posts, pages, and parts) in Markdown files, with data queried via **GraphQL**.
+- **TensorFlow.js Integration**: Seamlessly integrate machine learning models into your posts using **TensorFlow.js**. The project uses a modified version of [**tfjx**](https://github.com/ModelDepot/tfjsx) to work with Gatsby.
+- **Chart.js Integration**: Use **react-chartjs** to render visualizations like loss and accuracy charts, replacing Plotly for better compatibility in deployment.
+- **Math Expressions**: Support for **KaTeX** to display mathematical formulas in your posts.
+- **CSV Data Support**: Easily integrate CSV file data into your blog with the **gatsby-transformer-csv** plugin.
+- **Graph Visualization**: Create interactive graphs in Markdown using **Mermaid** with **gatsby-remark-graph**.
+- **Customizable Styles**: Easily change the look and feel with base styles.
+- **Code Quality Tools**: Integrated **ESLint** and **Prettier** for consistent code styling and linting.
 
 ## Prerequisites
 
-If you do not have Gatsby Cli installed yet, do it first.
+Before you begin, ensure you have the **Gatsby CLI** installed:
 
-```text
+```bash
 npm install --global gatsby-cli
 ```
 
-More information on [GatsbyJS.org](https://www.gatsbyjs.org/tutorial/part-one)
+More information on installation and usage can be found at [GatsbyJS.org](https://www.gatsbyjs.com/docs/quick-start/).
 
 ## Contributing
 
-- Fork the repo
-- Create your feature branch (git checkout -b feature/fooBar)
-- Commit your changes (git commit -am 'Add some fooBar')
-- Push to the branch (git push origin feature/fooBar)
-- Create a new Pull Request
+1. Fork the repo.
+2. Create a feature branch (`git checkout -b feature/fooBar`).
+3. Commit your changes (`git commit -am 'Add some fooBar'`).
+4. Push to the branch (`git push origin feature/fooBar`).
+5. Create a Pull Request.
 
-## Licence
+## License
 
-MIT License
-Do whatever you want with it!
+MIT License  
+Feel free to use and modify this project however you'd like!
+
+---
+
+This version reflects the move to **Gatsby v5**, showcasing modernized features and dependencies.
