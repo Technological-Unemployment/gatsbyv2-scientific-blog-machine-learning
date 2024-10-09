@@ -40,7 +40,3 @@ More information on installation and usage can be found at [GatsbyJS.org](https:
 
 MIT License  
 Feel free to use and modify this project however you'd like!
-
----
-
-This version reflects the move to **Gatsby v5**, showcasing modernized features and dependencies.
