@@ -1,7 +1,7 @@
 ---
-title: wtf with u
+title: test page
 date: '2018-08-29'
-author: 'dan'
+author: 'technological-unemployment'
 ---
 
 This is my 4-! yes it is bro
